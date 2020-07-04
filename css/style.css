@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background: #2C3E50;
+    padding: 30px 0 30px 0;
+}
+.navbar .navbar-brand{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.navbar .navbar-brand h1{
+    
+}
+.nav-item{}
+.nav-item .nav-link{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.nav-item .nav-link:hover{
+    color: #1abc9c;
+    transition: .4s all;
+}
+.header-banner-section{
+    background: #1ABC9C;
+    height: 100vh;
+}
+.banner-content{
+    text-align: center;
+    color: #fff;
+    padding: 150px 0 0 0;
+}
+.banner-img{
+    
+width: 240px;
+    
+margin: auto;
+    
+margin-bottom: 40px;
+}
+.banner-content img{
+    width: 100%;
+}
+.banner-content h1{
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.white-span{
+    display: flex;
+    margin: 20px 0 25px 0;
+}
+.white-span i{
+    font-size: 32px;
+    padding: 0 20px 0 20px;
+    color: #fff;
+}
+.first-span{
+    margin-left: auto;
+    background: #fff;
+    width: 100px;
+    height: 4px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.second-span{
+    margin-right: auto;
+    background: #fff;
+    width: 100px;
+    height: 4px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner-content p{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/* header banner part end */
+
+/* portfolio part start */
+.portfolio-section{
+    padding: 2em 0 1em 0;
+}
+.portfolio-content{text-align: center;/* margin: 5em 0 0 0; */}
+.portfolio-section, .contact-section h1{font-weight: 700;text-transform: uppercase;font-size: 3.3em;}
+.black-span i{
+    font-size: 32px;
+    padding: 0 20px 0 20px;
+}
+.black-span{
+    display: flex;
+    margin-bottom: 20px;
+}
+.black-span-one{
+    margin-left: auto;
+    background: #000;
+    width: 100px;
+    height: 4px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.black-span-two{
+    margin-right: auto;
+    background: #000;
+    width: 100px;
+    height: 4px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.portfolio-img{
+    position: relative;
+    width: 100%;
+}
+.portfolio-img img{
+   
+border-radius: 10px;
+   
+width: 90%;
+   
+margin-bottom: 60px;
+}
+/* .portfolio-img img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    opacity: ;
+} */
+.portfolio-img i{
+
+    opacity: 0;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.portfolio-img:hover .portfolio-img i{
+    opacity: 1;
+}
+
+/* portfolio part end */
+
+/* about part start */
+.about-section{
+    background: #1abc9c;
+    padding: 5em 0 4em 0;
+}
+.about-section h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3.3em;
+    color: #fff;
+}
+.about-l{padding-left: 200px;}
+.about-r{padding-right: 180px;padding-left: 50px;}
+.about-section p{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.about-section button{color: #fff;display: block;margin: auto;font-size: 20px;letter-spacing: 1px;padding: 18px 25px;border: 2px solid;border-radius: 10px;margin-top: 30px;}
+/* about part end */
+
+/* contact part start */
+.contact-section{
+    padding: 5em 0 4em 0;
+}
+.contact-form{
+
+}
+.form-control{
+
+font-size: 22px;
+}
+textarea{
+    width: 100%;
+}
+.btn-custom{
+    padding: 12px 35px;
+    background: #1abc9c;
+    color: #fff;
+    font-size: 20px;
+}
+/* contact part end */
+
+/* footer part start */
+footer{
+    background: #2C3E50;
+    color: #fff;
+    padding: 80px 0 70px 0;
+}
+footer h1{
+    font-size: 28px;
+}
+footer p{
+    line-height: 1.6;
+    font-size: 20px;
+    padding: 20px 10px 0 10px;
+}
+footer a{
+    
+}
+footer i{
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 12px;
+    margin: 0 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+footer i:hover{
+    background: #fff;
+    color: #000;
+    transition: .4s all ease;
+}
+footer span{
+    color: #1abc9c;
+}
+.copyright{
+    color: #fff;
+    background: #1A252F;
+    text-align: center;
+    padding: 20px;
+}
+.copyright p{}
+/* footer part end */
+
